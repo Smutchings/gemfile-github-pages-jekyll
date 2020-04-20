@@ -25,8 +25,8 @@ You'll need to use `gem uninstall [gem-name]` to uninstall versions that are new
 | 3) Use rbenv or RBM to install Ruby 2.5.3  | 3) Install Ruby Bundler |
 | 4) Set your Ruby version to 2.5.3| 4) Set your Ruby version to 2.5.3 | 
 | 5) Install Bundler | 5) Install "tzinfo-data" Gem |
-| 6) Run `cd [blog-name]` to create folder for Jekyll | 
-| 7) Download this repo's GEMFILE to the Jekyll directory |
-| 8) Run `bundler update` to install required Gems |
-| 9) Run ` bundle exec jekyll new` to create the new JEkyll blog |
-| 10) Run `bundle exec jekyll s -w --host 0.0.0.0` to serve an auto-regenerating version of your Jekyll blog to 0.0.0.0 on your own machine, or your machines' IP address on any machine on your network. |
+| 6) Run `cd [blog-name]` to create folder for Jekyll | 6) Run `cd [blog-name]` to create folder for Jekyll | 
+| 7) Download this repo's GEMFILE to the Jekyll directory | 7) Download this repo's GEMFILE to the Jekyll directory |
+| 8) Run `bundler update` to install required Gems | 8) Run `bundler update` to install required Gems |
+| 9) Run ` bundle exec jekyll new` to create the new JEkyll blog | 9) Run ` bundle exec jekyll new` to create the new JEkyll blog |
+| 10) Run `bundle exec jekyll s -w --host 0.0.0.0` to serve an auto-regenerating version of your Jekyll blog to 0.0.0.0 on your own machine, or your machines' IP address on any machine on your network. | 10) Run `bundle exec jekyll s -w --host 0.0.0.0` to serve an auto-regenerating version of your Jekyll blog to 0.0.0.0 on your own machine, or your machines' IP address on any machine on your network. |
