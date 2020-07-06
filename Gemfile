@@ -1,9 +1,9 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-# gem "rails"
-gem 'github-pages', '~> 204'
-gem 'jekyll', '~> 3.8.5'
+# gem "rails" for ruby 2.5.8
+gem 'github-pages', '~> 206'
+gem 'jekyll', '~> 3.8.7'
 gem 'github-pages-health-check', '~> 1.16.1'
 gem 'html-pipeline', '~> 2.12.3'
 gem 'jekyll-avatar', '~> 0.7.0'
@@ -42,7 +42,7 @@ gem 'jemoji', '~> 0.11.1'
 gem 'kramdown', '~> 1.17.0'
 gem 'liquid', '~> 4.0.3'
 gem 'minima', '~> 2.5.1'
-gem 'nokogiri', '~> 1.10.7'
-gem 'rouge', '~> 3.13.0'
+gem 'nokogiri', '~> 1.10.9'
+gem 'rouge', '~> 3.19.0'
 gem 'safe_yaml', '~> 1.0.5'
 gem 'sass', '~> 3.7.4'
