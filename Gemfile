@@ -1,11 +1,12 @@
-# A sample Gemfile
+# GitHub Pages Gemfile. Maintained by Sam Hutchings.
+# Based on https://pages.github.com/versions/
 source "https://rubygems.org"
 
-# gem "rails" for ruby 2.5.8
-gem 'github-pages', '~> 206'
-gem 'jekyll', '~> 3.8.7'
+# gem "rails"
+gem 'github-pages', '~> 207'
+gem 'jekyll', '~> 3.9.0'
 gem 'github-pages-health-check', '~> 1.16.1'
-gem 'html-pipeline', '~> 2.12.3'
+gem 'html-pipeline', '~> 2.13.0'
 gem 'jekyll-avatar', '~> 0.7.0'
 gem 'jekyll-coffeescript', '~> 1.1.1'
 gem 'jekyll-commonmark-ghpages', '~> 0.1.6'
@@ -39,10 +40,11 @@ gem 'jekyll-theme-tactile', '~> 0.1.1'
 gem 'jekyll-theme-time-machine', '~> 0.1.1'
 gem 'jekyll-titles-from-headings', '~> 0.5.3'
 gem 'jemoji', '~> 0.11.1'
-gem 'kramdown', '~> 1.17.0'
+gem 'kramdown-parser-gfm', '~>1.1.0'
+gem 'kramdown', '~> 2.3.0'
 gem 'liquid', '~> 4.0.3'
 gem 'minima', '~> 2.5.1'
-gem 'nokogiri', '~> 1.10.9'
+gem 'nokogiri', '~> 1.10.7'
 gem 'rouge', '~> 3.19.0'
 gem 'safe_yaml', '~> 1.0.5'
 gem 'sass', '~> 3.7.4'
